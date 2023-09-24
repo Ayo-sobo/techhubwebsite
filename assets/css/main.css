@@ -1012,25 +1012,24 @@ input, select, textarea {
 
 		.addr {
 			display: grid;
+			grid-template-columns: 2fr 2fr 2fr;
+			grid-gap: 50px;
+			
+		}
+
+	
+		
+	
+		.addrcont {
+			display: grid;
 			grid-template-columns: 1fr 1fr;
-			grid-gap: 40px;
+			grid-gap: 20px;
+			flex-wrap: wrap;
+			
 		}
+
 		
-		/* Styling for the details div */
-		.details {
-			color: #fff;
-			padding: 20px;
-			border-radius: 5px;
-			margin-bottom: 20px;
-		}
-		
-		/* Styling for the headings inside the divs */
-		.card h3,
-		.details h3 {
-			font-size: 18px;
-			margin: 0;
-			padding: 0;
-		}
+	
 
 /* Icons */
 
@@ -1250,7 +1249,7 @@ input, select, textarea {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
+		/* -webkit-backface-visibility: hidden; */
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1297,7 +1296,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/backg.jpg");
+			background-image: url("../../images/bgg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1690,6 +1689,8 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		
+
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
@@ -1761,6 +1762,33 @@ input, select, textarea {
 			}
 
 		}
+
+		/* services */
+		.card1 {
+			flex-direction: column;
+			justify-content: flex-start; 
+			align-items: flex-start;
+			gap: 20px; 
+			display: flex
+		}
+
+		.cont1 {
+			color: white; 
+			font-size: 20px;
+			font-family: Mulish; 
+			font-weight: 600; 
+			word-wrap: break-word;
+		}
+		
+		
+
+
+
+
+
+
+
+
 
 /* Footer */
 
